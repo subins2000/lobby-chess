@@ -1,0 +1,11 @@
+{
+  "name" : "Chess",
+  "short_description" : "Play the classic chess game against the computer or online with other humans.",
+  "description" : "Play the classic chess game against the computer or online.",
+  "category" : "games",
+  "sub_category" : "",
+  "version" : "0.1",
+  "author" : "Subin Siby",
+  "author_page" : "https://subinsb.com",
+  "app_page" : "https://lobby.subinsb.com/apps/ledit"
+}
