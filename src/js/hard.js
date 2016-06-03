@@ -70,7 +70,7 @@ var onDrop = function(source, target, piece, newPos, oldPos, orientation) {
   drag = false;
 
   if (!game.game_over()) {
-    $(".workspace #status").html('');
+    $("#workspace #status").html('');
     var movetime = 1000;
     engine.postMessage('position ' + startFrom + ' moves ' + strMoves());
     engine.postMessage('go movetime ' + movetime);

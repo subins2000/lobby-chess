@@ -17,9 +17,15 @@ $this->addScript("online.js");
   </div>
   <div id="connection">
     <a class="btn green" id="connect">Connect</a>
+    <a class="btn red" href="<?php echo $this->u("/settings");?>">Settings</a>
   </div>
   <div id="game">
     <div id="board"></div>
-    <p>Status: <span id="status"></span></p>
   </div>
+  <p>Status: <span id="status"></span></p>
 </div>
+<script>
+  lobby.load(function(){
+    lobby.app.username = "<?php echo getData("username");?>";
+  });
+</script>
